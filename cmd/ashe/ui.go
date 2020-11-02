@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/mohanson/gracefulexit"
@@ -27,7 +28,7 @@ var (
 )
 
 func showProcessStatus(p *ProcessStatus) string {
-	return fmt.Sprintf("%-13s %5d %s", p.ProcessConfig.Name, p.Pid, p.ProcessConfig)
+	return fmt.Sprintf("%-13s %5d %s", p.ProcessConfig.Name, p.Pid, strings.Join(p.ProcessConfig.Command, " "))
 }
 
 func mainServer() {
