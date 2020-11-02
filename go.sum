@@ -1,0 +1,4 @@
+github.com/mohanson/gracefulexit v0.0.0-20201010110155-aa6faba5a865 h1:9XZaRL95Rsrt2PyxQcxDFCVaXlE8JEHM+2VTM/ZgXgk=
+github.com/mohanson/gracefulexit v0.0.0-20201010110155-aa6faba5a865/go.mod h1:UCUU8GWJ6nYsIfqMMg/WJVw6JMqYMZLjhBIQMXOX8tw=
+github.com/mohanson/res v0.0.0-20200809135507-53ac0bff5a9b h1:DGiu2ezyx5JO5jg4ETdBx7QoT/tBzzFSOmQrpVi7sUc=
+github.com/mohanson/res v0.0.0-20200809135507-53ac0bff5a9b/go.mod h1:0AEqs6ZyPjbvoBehQJ3jT8jVwQvDxKyfaE3DJd4IPDs=
