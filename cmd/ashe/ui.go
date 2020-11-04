@@ -49,10 +49,6 @@ func mainServer() {
 		}
 		log.Println("kill", e.ProcessConfig.Name)
 	}
-	if err := os.Remove(pathUnixSocketFile); err != nil {
-		log.Panicln(err)
-	}
-	log.Println("remove", pathUnixSocketFile)
 	return
 }
 
